@@ -1,0 +1,14 @@
+Readme for PHP form mailer
+
+This is a simple little form mailer that you can plunk onto
+your php server and call from an HTML form with action="formMailer.php" and method="post".
+
+I wrote it for a client and saved it because I always need one and never have it.
+
+Two important things. You want to have a hidden input field with a value of "youremail@email.com"
+and a name of "Email". You also want to have an empty text input field called "noRobot"
+that you set to a style of display: none. This is to replace the need for Captcha.
+
+Use and modify away!
+
+Happy coding!
